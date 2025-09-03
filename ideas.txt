@@ -1,0 +1,48 @@
+PCB:
+
+* power pads & through hole ports so the wand can be powered using wires and room for a battery can be left in the wand
+* LED for the tip, blink/flash when buttons are pressed
+* Bright light for the tip so it can function as a flashlight
+* DAC and small speaker for audio, maybe a headphone port so I can use it to make my wired headphones extend wirelessly
+* Use touch pins to sense when the wand has been picked up
+* Vibration motor in handle for "cursor on screen" feedback
+
+Casing:
+	* Use a real stick and 3D print the tip + a casing for the PCB
+
+
+============================
+
+IR sensor - Get from Wiimote
+
+Pins:
+
++-----------------+-----------------+
+| 1 - VCC 3.3V    | Connect to 3.3V power source with capacitors
++-----------------+-----------------+
+| 2 - GND         | Connect to ground
++-----------------+-----------------+
+| 3 - GND         | Connect to ground
++-----------------+-----------------+
+| 4 - NC          | 
++-----------------+-----------------+
+| 5 - I2C SCL     | Connect to esp32 with internal pull resistors
++-----------------+-----------------+
+| 6 - I2C SDA     | Connect to esp32 with internal pull resistors
++-----------------+-----------------+
+| 7 - 25 MHz CLK  | Connect to esp32 clock pin
++-----------------+-----------------+
+| 8 - RESET       | Connect to esp32 pins
++-----------------+-----------------+
+
+
+
+============================
+
+Requirements
+
+	- Microcontroller 	|   1   |	Bluetooth, I2S, SPI, 1mb+ flash, 
+	- Button pins 		|   2+  | 	Accessible through-hole mount
+	- LED			|   1   |       RGB, 3 volt
+	- Light			|   1   |       Bright, 3 volt
+	- 

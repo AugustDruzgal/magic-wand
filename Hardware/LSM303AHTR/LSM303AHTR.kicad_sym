@@ -1,0 +1,118 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "LSM303AHTR" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -10.1784 13.2064 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "LSM303AHTR" (id 1) (at -10.1847 -17.588 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "LSM303AHTR:LGA12R50P_200X200X100" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "SYMicroelectronics" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "LSM303AHTR_0_0"
+      (rectangle (start -10.16 -15.24) (end 12.7 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional clock (at -12.7 10.16 0) (length 2.54)
+        (name "SCL/SPC"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 7.62 0) (length 2.54)
+        (name "CS_XL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 5.08 0) (length 2.54)
+        (name "CS_MAG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 2.54 0) (length 2.54)
+        (name "SDA/SDI/SDO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 0.0 0) (length 2.54)
+        (name "C1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -10.16 180.0) (length 2.54)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 -2.54 0) (length 2.54)
+        (name "INT_MAG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 10.16 180.0) (length 2.54)
+        (name "VDD"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 7.62 180.0) (length 2.54)
+        (name "VDD_IO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 -5.08 0) (length 2.54)
+        (name "DRDY_MAG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 -7.62 0) (length 2.54)
+        (name "INT_XL"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 15.24 -12.7 180.0) (length 2.54)
+        (name "GND__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
