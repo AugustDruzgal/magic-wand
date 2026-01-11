@@ -578,6 +578,10 @@
     [
       "906cab27-083b-401a-bfbe-fd7cc62dac41",
       "Root"
+    ],
+    [
+      "88f479dd-8279-477b-8d99-5c59e0fb9f87",
+      "BMI270_BMM350"
     ]
   ],
   "text_variables": {}
